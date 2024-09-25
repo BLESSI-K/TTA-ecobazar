@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+samp{
+    font-size: 11px;
+}
+.bg-main{
+    background: #00B207;
+
+}
+a, .text-sm{
+    font-size: 11px;
+}
+.bg-black-main{
+    background: #333333;
+    color: #999999;
+
+}
+.vtext-ol{
+    color:#FF8A00;
+}
+.bing-bannar{
+    background-image: url(./IMG/BG-1.jpg);
+    background-repeat: no-repeat;
+}
+.small-bannar-1{
+    background-image: url(./IMG/BG-2.png);
+    background-repeat: no-repeat;
+}
+.small-bannar-2{
+    background-image: url(./IMG/BG-3.png);
+    background-repeat: no-repeat;
+}
+.bg-orange{
+    background-color: #FF8A00;
+}
+.text-5{
+    color: #00B207;
+}
+.w-15{
+    width:15%;
+}
+@media screen and ( max-width:768px) {
+    .w-15{
+    width:30%;
+} 
+}
+.types-1{
+    background-image: url(./IMG/y-1.png);
+}
+.types-2{
+    background-image: url(./IMG/y-2.png);
+}
+.types-3{
+    background-image: url(./IMG/y-3.png);
+}
+.h-96{
+    font-family: sans-serif;
+
+}
+.discount-container{
+    background-image: url(./IMG/q-1.jpg);
+    height: 210px;
+}
+.insta-1{
+    background-image: url(./IMG/z-1.png);
+    height: 150px;
+}
+.insta-2{
+    background-image: url(./IMG/z-2.png);
+    height: 150px;
+}
+.insta-3{
+    background-image: url(./IMG/z-3.png);
+    height: 150px;
+}
+.insta-4{
+    background-image: url(./IMG/z-4.png);
+    height: 150px;
+}
+.insta-5{
+    background-image: url(./IMG/z-5.png);
+    height: 150px;
+}
+.insta-6{
+    background-image: url(./IMG/z-6.png);
+    height: 150px;
+}
+.contact-main-header{
+    background-image: url(./IMG/s-1.png);
+    height: 40px;
+}
+.contact-map{
+    background-image: url(./IMG/m-1.png);
+    height: 200px;
+}
+.blog-main-header{
+    background-image: url(./IMG/s-2.png);
+    height: 40px;
+}
+.sing-main-header{
+    background-image: url(./IMG/sing-1.png);
+    height: 40px;
+}
+@media screen and (max-width:768) {
+    .w-15{
+        width: 30%;
+    }
+    .sing-main-header{
+        display: none;
+    }
+}
+.blog-discount-container{
+    background-image: url(./IMG/yiu-1.png);
+    height: 190;
+    background-size: cover;
+}
